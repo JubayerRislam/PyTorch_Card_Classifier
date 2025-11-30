@@ -55,3 +55,19 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Model Architecture
+
+- **Feature Extractor:** Pre-trained EfficientNet-B0
+- **Classifier Head:** Custom linear layer with 53 outputs
+- **Optimizer:** Adam (learning rate = 0.001)
+- **Loss Function:** CrossEntropyLoss
+- **Input Size:** 128×128 RGB images
+
+## Performance
+
+- **Validation Accuracy:** ~90–95%
+- **Top-5 Accuracy:** ~98–99%
+- Slight overfitting observed after epoch 3 — early stopping recommended
+
