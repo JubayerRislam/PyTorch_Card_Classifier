@@ -15,7 +15,6 @@ A deep learning project that classifies **53 playing cards** using **EfficientNe
 ---
 
 ## Dataset
-https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification
 
 The dataset is organized in **ImageFolder** format:
 
@@ -39,3 +38,20 @@ test/
 ├─ 3 of Hearts/
 ├─ ...
 ├─ King of Spades/
+
+
+
+- Each folder corresponds to a single card class
+- 53 classes total
+
+You can download the dataset from Kaggle:  
+[Kaggle Card Dataset](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification)
+
+---
+
+## Requirements
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
